@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Cronômetro On-line</title>
+</head>
+
+<body>
+
+    <h1>Cronômetro</h1>
+
+    <p>00:00:00</p>
+
+    <br>
+    <div class="divButton">
+        <button onclick="start()">Iniciar</button>
+        <button onclick="stop()">Parar</button>
+        <button onclick="laps()">Voltas</button>
+        <button onclick="reset()">Zerar</button>
+    </div>
+    <div class="divLaps">
+        <p class="pLaps">Voltas</p>
+        <ul id="listLaps"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
